@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/free-weather-191-461610.png?f=webp">
+<title>Weather App</title>
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="text-center mb-3">Weather Checker</h2>
+            <form id="weatherForm">
+                <div class="form-group">
+                    <label for="city"></label>
+                    <input type="text" class="form-control" id="city" placeholder="Enter city">
+                </div>
+                <button type="submit" class="btn btn-success">Get Weather</button>
+            </form>
+            <div id="weatherInfo" class="mt-4"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
